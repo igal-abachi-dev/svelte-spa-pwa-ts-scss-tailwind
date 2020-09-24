@@ -5,7 +5,15 @@ const app = new App({
   	props: {},
 });
 
+//if ('serviceWorker' in navigator) {
+//  navigator.serviceWorker.register('/service-worker.js')
+//}
+// Check that service workers are supported
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/service-worker.js')
+  // Use the window load event to keep the page load performant
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js');
+  });
 }
+
 export default app;
