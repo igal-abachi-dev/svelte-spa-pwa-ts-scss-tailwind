@@ -27,7 +27,7 @@ module.exports = {
         },
     ],
     "rules": {
-        "import/no-extraneous-dependencies": ["error", { devDependencies: true }],
+        "import/no-extraneous-dependencies": ["error", {devDependencies: true}],
         "import/no-mutable-exports": 0,
         "no-labels": 0,
         "no-restricted-syntax": 0,

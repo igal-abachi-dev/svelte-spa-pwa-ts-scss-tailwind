@@ -1,4 +1,3 @@
-
 import {wrap} from 'svelte-spa-router/wrap'
 
 import Home from './pages/Home.svelte';

@@ -1,13 +1,14 @@
 {
   "bracketSpacing": true,
-  
   "singleQuote": true,
   "trailingComma": "all",
   "useTabs": true,
   "semi": true,
   "tabWidth": 4,
   "printWidth": 100,
-  "plugins": ['prettier-plugin-svelte'],
+  "plugins": [
+    'prettier-plugin-svelte'
+  ],
   "overrides": [
     {
       "files": "*.ts",
@@ -18,5 +19,5 @@
   ],
   "svelteSortOrder": 'styles-scripts-markup',
   "svelteStrictMode": false,
-  "svelteBracketNewLine": true,
+  "svelteBracketNewLine": true
 }

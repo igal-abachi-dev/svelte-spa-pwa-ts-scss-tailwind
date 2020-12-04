@@ -1,5 +1,5 @@
 const sveltePreprocess = require('svelte-preprocess');
-const { postcss } = require('svelte-preprocess');
+const {postcss} = require('svelte-preprocess');
 
 const preprocessOptions = {
     sourceMap: true, // false in production
