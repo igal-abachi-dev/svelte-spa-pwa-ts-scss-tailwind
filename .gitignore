@@ -5,3 +5,6 @@
 /public/index.css
 /package-lock.json
 /.idea
+/.svelte
+/build
+/functions
